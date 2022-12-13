@@ -20,12 +20,12 @@ There are few steps to prepare POCHunter.
 
 2. Clone POCHunter repository:
 ```
-git clone https://devnull.anb.lan/dpadabed/pochunter.git
+git clone https://github.com/SpiritOfSea/POCHunter
 ```
 
 3. Prepare Wappalyzer:
 ```
-cd pochunter/api/wappalyzer
+cd POCHunter/api/wappalyzer
 yarn install
 yarn run link
 ```
@@ -48,9 +48,9 @@ python3 pochunter.py [arguments] <url/host>
 ## Usage
 ```
 └─$ python3 pochunter.py -h                                                       
-usage: ./pochunter.py [-h] [-f] [-l] [-t] [--check] [--vulns] [--version] [--debug] [-e] [-c] [-hp] [-of FORMAT] [--nocolor] [--cvefilter CVEFILTER]
-                      [--cpefilter CPEFILTER]
-                      hostname
+usage: python3 pochunter.py [-h] [-f] [-l] [-t] [--check] [--vulns] [--version] [--debug] [-e] [-c] [-hp] [-of FORMAT] [--nocolor] [--cvefilter CVEFILTER]
+                            [--cpefilter CPEFILTER]
+                            hostname
 
 Tool to automatically find web exploits' proofs of concept
 
