@@ -1,7 +1,6 @@
 # POCHunter
 _@SpiritOfSea (Dzmitry Padabed)_
 
-------
 ## About
 **POCHunter** is a Python command line tool which aims to automate web host 
 analysis. It detects used technologies and their versions via 
@@ -12,7 +11,6 @@ _Warning: author is not responsible for any damages. You are responsible
 for your own actions. Attacking targets without prior mutual consent 
 is illegal._
 
-------
 ## Installation
 There are few steps to prepare POCHunter.
 1. Install Wappalyzer dependencies: [Git](https://git-scm.com/), 
@@ -44,7 +42,6 @@ and [NVD](https://nvd.nist.gov/developers/api-key-requested) tokens here.
 python3 pochunter.py [arguments] <url/host>
 ```
 
-------
 ## Usage
 ```
 └─$ python3 pochunter.py -h                                                       
