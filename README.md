@@ -18,7 +18,7 @@ There are few steps to prepare POCHunter.
 
 2. Clone POCHunter repository:
 ```
-git clone https://github.com/SpiritOfSea/POCHunter
+git clone --recurse-submodules https://github.com/SpiritOfSea/POCHunter
 ```
 
 3. Prepare Wappalyzer:
